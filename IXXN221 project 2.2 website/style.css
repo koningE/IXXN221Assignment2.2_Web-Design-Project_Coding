@@ -1,0 +1,137 @@
+body {
+    background-color: #EDF2F4;
+    margin: 0; /* Remove default margin */
+}
+
+/* THE BAR AT THE TOP */
+
+.button-bar {
+    background-color: #EF233C;
+    color: #EDF2F4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-bar .button {
+    background-color: #EF233C;
+    color: #EDF2F4;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button-bar .button:hover {
+    background-color: #A00000;
+}
+
+/* THE SEARCH BAR AND TITLE */
+.title {
+    text-align: center;
+    margin-top: 50px; /* Add some spacing between the button bar and title */
+    font-family: "Cabin",sans-serif;
+    font-size: 54.93px;
+    color: #EF233C;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+    display: flex; /* Add flex display to align input and button */
+    justify-content: center; /* Center them horizontally */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #8D99AE;
+    background-color: #EDF2F4;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Cabin",sans-serif;
+    width: 70%; /* Adjust the width as needed */
+}
+
+.search-button {
+    background-color: #EF233C;
+    color: #EDF2F4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #A00000;
+}
+
+/* OUR COLLECTION SECTION */
+
+.collection {
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 20px; /* Add padding to the left side */
+    font-family: "Cabin",sans-serif;
+}
+
+.collection-title {
+    font-size: 43.95px;
+    color: #333;
+    
+}
+
+.collection-description {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* MOST POPULAR SECTION */
+
+.popular {
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 18px; /* Add padding to the left side */
+    font-family: "Cabin", sans-serif;
+}
+
+.mostPopularTitle {
+    font-size: 35.16px;
+}
+
+.popular-description {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Your existing styles here */
+
+.shoe-container {
+    display: flex;
+    justify-content: space-between; /* To space shoes evenly */
+    flex-wrap: wrap; /* Allow items to wrap to the next row if the screen is too narrow */
+    margin-top: 30px; /* Add some margin for spacing */
+}
+
+.shoe {
+    width: calc(33.33% - 20px); /* Set each shoe's width (minus margin) to be one-third of the container's width */
+    margin-bottom: 20px; /* Add margin between each shoe */
+}
+
+.shoe img {
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Preserve aspect ratio and crop if necessary */
+}
+
+
+.shoe-info {
+    text-align: left;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.shoeTitle {
+    font-size: 22.50px;
+}
