@@ -11,7 +11,14 @@
         <!--BUTTON BAR-->
         <div class="button-bar">
             <button class="button">🏡</button>
-            <button class="button">Products</button>
+            <button class="button" id="goToSecondPageButton">Products</button>
+
+    <script>
+        // JavaScript to handle the button click event
+        document.getElementById("goToSecondPageButton").addEventListener("click", function() {
+            window.location.href = "secondpage.html";
+        });
+    </script>
             <button class="button">Profile</button>
             <button class="button">Stores</button>
             <button class="button">Brands</button>
@@ -28,19 +35,21 @@
             <input type="text" placeholder="Search...">
             <button class="search-button">Search</button>
         </div>
+        
+
 
         <!--OUR COLLECTION SECTION-->
         <div class="collection">
             <h2 class="collection-title">Our Collection</h2>
             <p class="collection-description">Welcome to our collection of the finest products. We take pride in offering a diverse range of high-quality items to meet your needs and preferences. Explore our selection and find the perfect items for you.</p>
-            <a href="secondpage.html">Go to Second Page</a>
+           
         
         </div>
 
         <!--MOST POPULAR SECTION-->
         <div class="popular">
             <h3 class="mostPopularTitle">Most Popular</h3>
-            <p class="Most Popular">Welcome to our collection of the finest products. We take pride in offering a diverse range of high-quality items to meet your needs and preferences. Explore our selection and find the perfect items for you.</p>
+            <p class="popular-description">Welcome to our collection of the finest products. We take pride in offering a diverse range of high-quality items to meet your needs and preferences. Explore our selection and find the perfect items for you.</p>
         </div>
 
         <!--MOST POPULAR SHOE IMAGES SECTION-->
@@ -69,7 +78,7 @@
                 <img src="Images/download-3.jpg" alt="Shoe 3">
                 <div class="shoe-info">
                     <h3 class="shoeTitle">550's</h3>
-                    <p>Store: Footlockers</p>
+                    <p>Store: Footlocker</p>
                     <p>Size: 6 - 13</p>
                     <p>Availability: In Stock</p>
                 </div>
@@ -80,8 +89,8 @@
 
     <!--BRANDS SECTION-->
     <div class="popular">
-        <h3 class="mostPopularTitle">Most Popular</h3>
-        <p class="Most Popular">Welcome to our collection of the finest products. We take pride in offering a diverse range of high-quality items to meet your needs and preferences. Explore our selection and find the perfect items for you.</p>
+        <h3 class="BrandsTitle">Brands</h3>
+        <p class="Brands">Welcome to our collection of the finest products. We take pride in offering a diverse range of high-quality items to meet your needs and preferences. Explore our selection and find the perfect items for you.</p>
     </div>
 
 <!--BRANDS SHOE IMAGES SECTION-->
@@ -110,7 +119,7 @@
         <img src="Images/images.jpg" alt="Shoe 3">
         <div class="shoe-info">
             <h3 class="shoeTitle">Nike brown</h3>
-            <p>Store: Footlockers</p>
+            <p>Store: Footlocker</p>
             <p>Size: 6 - 13</p>
             <p>Availability: In Stock</p>
         </div>

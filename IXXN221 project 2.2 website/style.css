@@ -31,7 +31,7 @@ body {
     margin-top: 50px; /* Add some spacing between the button bar and title */
     font-family: "Cabin",sans-serif;
     font-size: 54.93px;
-    color: #EF233C;
+    color: #2B2D42;
 }
 
 .search-container {
@@ -68,40 +68,48 @@ input[type="text"] {
 
 .collection {
     text-align: left;
-    margin-top: 30px;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 200px;
     padding-left: 20px; /* Add padding to the left side */
-    font-family: "Cabin",sans-serif;
-}
+    
 
 .collection-title {
     font-size: 43.95px;
-    color: #333;
+    color: #2B2D42;
+    font-family: "Cabin",sans-serif;
+}
     
 }
 
 .collection-description {
     font-size: 18px;
-    color: #666;
+    color: #2B2D42;
     margin-top: 10px;
+    font-family: "Cabin",sans-serif;
 }
 
 /* MOST POPULAR SECTION */
 
 .popular {
     text-align: left;
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 200px;
     padding-left: 18px; /* Add padding to the left side */
-    font-family: "Cabin", sans-serif;
+    color: #2B2D42;
 }
 
 .mostPopularTitle {
     font-size: 35.16px;
+    font-family: "Cabin medium", sans-serif;
 }
 
 .popular-description {
     font-size: 18px;
-    color: #666;
+    color: #2B2D42;
     margin-top: 10px;
+    font-family: "Cabin", sans-serif;
 }
 
 /* Your existing styles here */
@@ -111,6 +119,7 @@ input[type="text"] {
     justify-content: space-between; /* To space shoes evenly */
     flex-wrap: wrap; /* Allow items to wrap to the next row if the screen is too narrow */
     margin-top: 30px; /* Add some margin for spacing */
+    margin-left: 30px;
 }
 
 .shoe {
@@ -127,11 +136,25 @@ input[type="text"] {
 
 .shoe-info {
     text-align: left;
-    font-family: "Cabin", sans-serif;
+    font-family: "Cabin medium", sans-serif;
     font-size: 18px;
     margin-left: 30px;
+    color: #2B2D42;
 }
 
 .shoeTitle {
     font-size: 22.50px;
+    color: #2B2D42;
+}
+
+.BrandsTitle {
+    font-size: 35.16px;
+    font-family: "Cabin medium", sans-serif;
+}
+
+.Brands {
+    font-size: 18px;
+    color: #2B2D42;
+    margin-top: 10px;
+    font-family: "Cabin", sans-serif;
 }
